@@ -12,9 +12,7 @@ $(document).ready(function(){
 	var	partialPage = 0;    // used to calculate if a user request 5 or 25 articles
 	var errLoopCounter = 0;
 
-// variables for debugging - to be removed before going live
-		var	newArticle = {};
-		var	requestedArticles = [];
+
 
 	function queryApi() {
 		url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";  // the base url to which we add parameters
